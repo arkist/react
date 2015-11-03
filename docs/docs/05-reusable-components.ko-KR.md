@@ -229,6 +229,7 @@ Counter.defaultProps = { initialCount: 0 };
 
 불행하게도 ES6는 믹스인에 대한 지원이 없이 출시되었기 때문에, React에서 ES6 클래스를 사용한다면 믹스인을 사용할 방법이 없습니다. 대신, 우리는 믹스인에 의존하지 않고도 동작하도록 만들기 위해 열심히 노력하고 있습니다.
 
+<a name="stateless-functions"></a>
 ## 상태를 가지지 않는 함수
 
 React 클래스를 일반 JavaScript 함수로 작성할 수도 있습니다. 상태를 가지지 않는 함수 문법을 사용하는 예제입니다.
